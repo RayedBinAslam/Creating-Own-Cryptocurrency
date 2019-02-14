@@ -72,7 +72,7 @@ contract('RBAToken', function(accounts){
         assert.equal(allowance.toNumber(), 100, 'stores the allowance for delegated transfer');
       });
     });
-
+//Test for Delegated Transfer
     it('handles delegated token transfers', function(){
       return RBAToken.deployed().then(function(instance){
         tokenInstance = instance;
