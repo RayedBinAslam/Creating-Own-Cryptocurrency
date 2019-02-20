@@ -50,7 +50,7 @@ contract RBAToken {
   }
 
 //Delegated function
-//approve
+  //approve
   function approve(address _spender, uint256 _value) public returns (bool success) {
     //allowance
     allowance[msg.sender][_spender] = _value;
@@ -82,12 +82,5 @@ contract RBAToken {
     //return a boolean
     return true;
   }
-
-
-
-
-
-
-
 
 }
